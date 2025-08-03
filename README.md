@@ -22,7 +22,7 @@ This project is ideal for educators, small organizations, or developers who need
 
 ## Project Components
 
-1.  **Server Setup Script (`/scripts/setup_wizard.sh`)**
+1.  **Server Setup Script (`/scripts/setup_stream_server.sh`)**
     * An interactive wizard that automates the installation of Nginx, FFmpeg, and other dependencies. It compiles Nginx with the necessary RTMP and HTTP/2 modules and can automatically configure SSL.
 
 2.  **Desktop Client (`/client/stream_manager.py`)**
@@ -45,18 +45,18 @@ The interactive wizard will handle everything for you.
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/mohammadakbarpour/HLSManager.git](https://github.com/mohammadakbarpour/HLSManager.git)
+    git clone https://github.com/mohammadakbarpour/HLSManager.git
     cd HLSManager/scripts/
     ```
 
 2.  **Make the script executable:**
     ```bash
-    chmod +x setup_wizard.sh
+    chmod +x setup_stream_server.sh
     ```
 
 3.  **Run the wizard as root:**
     ```bash
-    sudo ./setup_wizard.sh
+    sudo ./setup_stream_server.sh
     ```
 
 4.  **Follow the on-screen instructions:**
